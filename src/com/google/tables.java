@@ -8,7 +8,8 @@ public class tables {
         int n = in.nextInt();
         for( int i = 1 ; i <= 10 ; i++ ){
             int table = n*i;
-            System.out.println(" 2 x " +  i + " = "+ table);
+            System.out.println( n + " x " +  i + " = "+ table);
+
         }
     }
 }
